@@ -1,0 +1,143 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dadada;
+}
+
+body,div,span,applet,object,iframe,a,img {
+  font-family: "Saira", sans-serif;
+}
+
+.title-header {
+  color: #dadada;
+  font-size: 30px;
+  margin: 0 auto;
+  letter-spacing: 10px;
+}
+
+.container-repos {
+  margin: 90px 130px 130px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .container-repos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: grid;
+  grid-gap: 18px;
+} */
+
+
+.image-repo {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.title-projects {
+  border-color: #191919;
+}
+
+.footer {
+  background-color: #dadada;
+  width: 100%;
+  font-size: 16px;
+}
+
+.container-footer1 {
+  background-color: #262626;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-footer2 {
+  background-color: #191919;
+  height: 70px;
+  margin-top: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.icon-style {
+  height: 30px;
+  opacity: 0.55;
+  padding: 0 5px;
+  -webkit-transition: opacity ease 0.3s;
+  transition: opacity ease 0.3s;
+}
+
+.icon-style:hover {
+  opacity: 1;
+}
+
+.text-footer1 {
+  color: #a6a6a6;
+  padding-right: 20px;
+}
+
+.text-footer2 {
+  color: #a6a6a6;
+}
+
+
+@media all and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .icon-style {
+    height: 40px;
+    padding: 0 15px;
+  }
+
+  .text-footer1 {
+    padding-right: 65px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .container-repos {
+    margin: 90px 130px 130px 90px;
+  }
+
+
+  /* .container-repos {
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 45px;
+  } */
+
+  .image-repo {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

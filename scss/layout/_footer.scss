@@ -1,0 +1,51 @@
+.footer {
+  background-color: $colorDarkWhite;
+  width: 100%;
+  font-size: 16px;
+  @media all and (min-width: 768px){
+    font-size: 18px;
+  }
+}
+
+.container-footer1 {
+  background-color: #262626;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer2 {
+  background-color: $colorDarkGrey;
+  height: 70px;
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-style {
+  height: 30px;
+  opacity: 0.55;
+  padding: 0 5px;
+  transition: opacity ease 0.3s;
+  &:hover {
+          opacity:1;
+  }
+  @media all and (min-width: 768px){
+    height: 40px;
+    padding: 0 15px;
+  }
+}
+
+.text-footer1 {
+  color: $colorLightGrey;
+  padding-right: 20px;
+  @media all and (min-width: 768px){
+    padding-right: 65px;
+  }
+}
+
+.text-footer2 {
+  color: $colorLightGrey;
+}
