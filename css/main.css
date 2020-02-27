@@ -21,18 +21,14 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .container-repos {
-  margin: 90px 130px 130px 90px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 78px 0 78px 0;
 }
 
 /* .container-repos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   display: grid;
   grid-gap: 18px;
@@ -105,8 +101,20 @@ body,div,span,applet,object,iframe,a,img {
   color: #a6a6a6;
 }
 
+@media all and (min-width: 340px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
 
 @media all and (min-width: 560px) {
+  .container-repos {
+    margin: 90px 130px 130px 90px;
+    margin-top: 98px;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -115,14 +123,14 @@ body,div,span,applet,object,iframe,a,img {
     bottom: 0;
   }
 
-  .icon-style {
-    height: 40px;
-    padding: 0 15px;
-  }
-
   .text-footer1 {
     padding-right: 65px;
   }
+
+  .icon-style {
+    height: 40px;
+    padding: 0 15px;
+  } 
 }
 
 @media all and (min-width: 1024px) {
@@ -136,7 +144,7 @@ body,div,span,applet,object,iframe,a,img {
   } */
 
   .image-repo {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 }
