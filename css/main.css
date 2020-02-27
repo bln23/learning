@@ -106,11 +106,13 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 560px) {
   .footer {
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    position: absolute;
+    bottom: 0;
   }
 
   .icon-style {
@@ -128,7 +130,6 @@ body,div,span,applet,object,iframe,a,img {
     margin: 90px 130px 130px 90px;
   }
 
-
   /* .container-repos {
     grid-template-columns: 250px 250px 250px;
     grid-gap: 45px;
@@ -139,5 +140,3 @@ body,div,span,applet,object,iframe,a,img {
     height: 250px;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
